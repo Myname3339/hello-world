@@ -1,11 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    uigg
-</body>
+<body >
+    <header class="flex justify-around bg-white"> 
+        <div class="my-2 w-8 h-8 rounded-full bg-green-600 flex justify-center items-center">
+            <div class="h-4 w-4 rounded-full bg-white flex justify-center items-center">
+                <div class="w-3 h-3 rounded-full bg-orange-500 ">
+                </div>
+            </div>
+        </div>
+        <nav class="flex gap-2.5 items-center py-3 px-7 text-sm py-3 px-4 font-medium 
+        rounded-3xl bg-white text-yellow-500 ">
+            <ul class="flex gap-8 bg-white rounded-3xl no-underline text-gray-300 hover:text-black px-8">
+                <li class="flex"><a class="no-underline text-gray-300 hover:text-black" href="#">Home</a></li>
+                <li class="flex"><a class="no-underline text-gray-300 hover:text-black" href="#">Destinations</a></li>
+                <li class="flex"><a class="no-underline text-gray-300 hover:text-black" href="#">About</a></li>
+                <li class="flex"><a class="no-underline text-gray-300 hover:text-black" href="#">Partner</a></li>
+            </ul>
+            <button class="text-sm py-1 px-5 font-medium border-0 rounded-md bg-white text-yellow-500 hover:bg-yellow-500 hover:text-white w-24" style="border:solid; border-color: #F59E0B;">Login</button>
+            <button class="text-sm py-1 px-5 font-medium border-0 rounded-md bg-yellow-500 border-yellow-500 text-white hover:bg-white hover:text-yellow-500 w-24" style="border:solid; border-color: #F59E0B;">Register</button>
+        </nav>
+    </header>
+    <section class="flex">
+        <div class="m-40 m-40 " >
+            <p style="font-family: Playfair Display;" class="font-bold text-6xl py-4">Explore and </p>
+            <p style="font-family: Playfair Display;" class="font-bold text-6xl">Travel</p>
+            <button
+                class=" my-20 text-sm py-1 px-5 font-medium border-0 rounded-md bg-yellow-500 border-yellow-500 text-white hover:bg-white hover:text-yellow-500 w-24"
+                style="border:solid; border-color: #F59E0B;">Register</button>
+        </div>
+        <img src="/imgs/b0af65cb2a4d94b66b5cd598a49a6517.png" class="my-12" style="margin-right: 20px;height: 600px;">
+    </section>
+</body >
 </html>
